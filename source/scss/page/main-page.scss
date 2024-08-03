@@ -1,0 +1,20 @@
+@use "../abstract-index" as *;
+
+
+
+
+.main-page{
+    &__body{
+        background-color: var(--body-bg);
+    }
+}
+
+
+@include for-mobile{
+     .main-page{
+
+
+     }
+     
+
+}

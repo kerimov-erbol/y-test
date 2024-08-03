@@ -1,0 +1,109 @@
+/*text style*/ 
+@mixin desktop-h1-header {
+    font-size: 80px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin desktop-h2-header {
+    font-size: 56px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin desktop-h3-header {
+    font-size: 42px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin desktop-h4-header {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 110%;
+    
+}
+@mixin desktop-button {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    
+}
+@mixin desktop-base-text {
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    
+}
+@mixin desktop-description {
+    font-size: 14px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+    
+}
+@mixin mobile-h1-header {
+    font-size: 46px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin mobile-h2-header {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin mobile-h3-header {
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin mobile-h4-header {
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    line-height: 110%;
+    
+}
+@mixin mobile-button {
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    
+}
+@mixin mobile-base-text {
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    
+}
+@mixin mobile-description {
+    font-size: 12px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 120%;
+    text-transform: uppercase;
+    
+}
+

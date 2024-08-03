@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Bold'), local('Inter-Bold'),
+        url('subset-Inter-Bold.woff2') format('woff2'),
+        url('subset-Inter-Bold.woff') format('woff'),
+        url('subset-Inter-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Medium'), local('Inter-Medium'),
+        url('subset-Inter-Medium.woff2') format('woff2'),
+        url('subset-Inter-Medium.woff') format('woff'),
+        url('subset-Inter-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Regular'), local('Inter-Regular'),
+        url('subset-Inter-Regular.woff2') format('woff2'),
+        url('subset-Inter-Regular.woff') format('woff'),
+        url('subset-Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter Semi Bold'), local('Inter-SemiBold'),
+        url('subset-Inter-SemiBold.woff2') format('woff2'),
+        url('subset-Inter-SemiBold.woff') format('woff'),
+        url('subset-Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

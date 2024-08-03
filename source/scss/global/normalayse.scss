@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    outline: 0;
+ }
+ *,*::before, *::after{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+ }
+ img{
+    vertical-align: top;
+    max-width:100%
+ }
+    
+ :focus,:active{
+    outline: none;
+ }
+ a:focus,a:active{
+    outline: none;
+ }
+ nav,footer,header,aside{
+    display: block;
+ }
+ html,body{
+    height: 100%;
+    width: 100%;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+ }
+ button,input,select,textarea {
+    font-family: inherit;
+ } /* Заставляем насследовать текст от body так как стили текста инпутов и кнопок задаются браузером */
+ input::-ms-clear{
+    display: none;
+ }
+ button{
+    cursor: pointer;
+ }
+ button::-moz-focus-inner{
+    padding: 0;
+    border: 0;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
+  a:hover{
+    text-decoration: none;
+ }
+ ul li{
+    list-style: none;
+    list-style-type: none; 
+ }
+ ol{
+     list-style-type: none;
+ }
+    
+ h1,h2,h3,h4,h5,h6{
+     font-size: inherit;
+     font-weight: inherit;
+ }
+ 

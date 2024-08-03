@@ -1,0 +1,24 @@
+
+.hero__infinit-text{
+	padding-top: auto;
+	padding-bottom: auto;
+	height: 60px;
+	background-color: #F54932;
+	white-space: nowrap;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+
+.RightToLeft {
+	animation: RightToLeft 20s infinite linear;
+  }
+  
+@keyframes  RightToLeft {
+	from {
+	  transform: translateX(0%);
+	}
+	to {
+	  transform: translateX(-100%);
+	}
+}
